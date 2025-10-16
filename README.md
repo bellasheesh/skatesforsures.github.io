@@ -1,1 +1,1 @@
-# skatesforsures.github.io
+# skatesforsures
