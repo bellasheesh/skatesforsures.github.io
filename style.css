@@ -1,0 +1,259 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: sans-serif;
+    color: darkslategrey;
+}
+
+.Menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.kolom .Description {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategrey;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: darkslategrey;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-hitam {
+    background-color: dimgrey;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 14px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hitam:hover {
+    background-color: darkred;
+    text-decoration: none;
+}
+
+a.tbl-abu {
+    background-color: dimgrey;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 14px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+a.tbl-abu:hover {
+    background: darkred;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Skaters-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-Skaters {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-Skaters img {
+    width: 80%;
+}
+
+.kartu-Skaters img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-Skaters p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: darkslategray;
+}
+
+.Gallery img {
+    width: 80px;
+}
+
+.Partners-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-Partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-Partners img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#Contact {
+    background: red;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkslategrey;
+    width: 100%;
+    line-height: 50px;
+}
+
+#Copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .Menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .Menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .Menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+    }
+}
